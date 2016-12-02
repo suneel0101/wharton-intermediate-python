@@ -7,8 +7,10 @@ Students will learn the intermediate techniques and structures of Python so that
 2. Warm Up Exercise
 3. Using The Random Library
 4. For Loops vs List Comprehensions
+4. Break
 5. Sorting & Lambda Functions
 6. Try/Except
+6. Break
 7. Using the CSV Library
 8. Debugging Code (Optional, if time permits)
 9. Final Project
@@ -127,8 +129,10 @@ print(jon.name)
 ### Exercises with a Partner
 0. Modify the `__init__` to take first name, last name and save those as attributes.
 1. Create a function called `get_full_name` that returns (not prints) the person's full name.
+2. Check that it works by instantiating a `Person`!
 
 ### Inheritance
+```python
 class Student(Person):
     def __init__(self, first_name, last_name):
         self.first_name = first_name
@@ -137,7 +141,7 @@ class Student(Person):
 
     def speak(self, message):
         print("I am a student. " + message)
-
+```
 ### Solo Exercises
 0. Confirm that a Student can speak and can get the full name.
 1. Write a function called `learn` that takes a subject name and adds it to the student's list of subjects.
