@@ -176,11 +176,11 @@ With `person_dict = {"name": "John"}`
 
 
 ### Exercise with Partner
-0. Using your next-level documentation skills, read in the csv file using `csv.DictReader`. We only need these fields:`genres`, `gross`, `movie_title`, `movie_imdb_link`, `imdb_score` and `title_year`.
+0. Using your next-level documentation skills, read in the csv file using `csv.DictReader`.
 1. Save the rows into a list called `rows`.
 
-## Final Project (Partner Optional)
-0. Create a class called `Movie` that takes in all of the fields we've read in for a particular movie.
+## Final Project: Movie Recommender (Partner Optional)
+0. Create a class called `Movie` that takes in `genres`, `imdb_score`, and `movie_title` and so is a simplified blueprint for what a movie is.
 1. Write a function on the class called `is_high_score` that returns True` if the `imdb_score` is greater than 8.
 2. Write a function on the class called `get_genres` that takes the `genres` field and returns a list of the genres instead of the `|` (pipe)-separated string it is in the raw data.
 3. Write a class called `Recommender` that takes as an argument in its `__init__` a list of `Movie` objects.
