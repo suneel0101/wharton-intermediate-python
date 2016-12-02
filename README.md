@@ -26,7 +26,7 @@ Write a function called `only_evens` that takes two arguments `start` and `end` 
 
 When you use it, e.g. `only_evens(1, 7)` should print the following
 
-```
+```python
 2
 4
 6
@@ -83,7 +83,7 @@ e_names = [name for name in names if "e" in name]
 1. Sort them reverse alphabetically.
 
 ## Lambda functions
-```
+```python
 def contains_e(name):
     return "e" in name
 
@@ -120,7 +120,7 @@ print(jon.name)
 ```
 
 ### Writing Class Methods
-```
+```python
 ...
     def speak(self, message):
         print(message)
