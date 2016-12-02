@@ -30,6 +30,8 @@ When you use it, e.g. `only_evens(1, 7)` should print the following
 6
 ```
 
+HINT: Do you remember the `range` function?
+
 ## Using the Random Library
 ### Some questions for discussion
 0. What is documentation?
@@ -38,7 +40,7 @@ When you use it, e.g. `only_evens(1, 7)` should print the following
 3. How do you know if documentation is good?
 
 ### Exercises with a Partner
-0. Find the Python documentation for the `random library`
+0. Find the Python documentation for the `random` library
 1. Explain to each other how the `randint` function works
 2. Use the `randint` function.
 
@@ -165,7 +167,7 @@ When you use the function, it should work like this:
 With `person_dict = {"name": "John"}`
 
 - `dict_get(person_dict, "name")` returns "John"
-- `dict_get(person_dict, "age") returns "Sorry, this dictionary does not contain that key!"
+- `dict_get(person_dict, "age")` returns "Sorry, this dictionary does not contain that key!"
 
 
 ## Using the CSV Library
